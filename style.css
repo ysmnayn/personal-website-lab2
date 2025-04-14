@@ -1113,6 +1113,7 @@ tbody tr:hover {
 
 @media (max-width: 768px) {
     .education-images {
+        justify-content: center;
         flex-direction: row;
         gap: 2rem;
     }
