@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Yasmin Ayuni – Personal Website Lab2</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Yasmin Ayuni</a>
+
+        <input type="checkbox" id="nav-toggle" hidden>
+        <label for="nav-toggle" class="menu-icon"><i class='bx bx-menu'></i></label>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="social.html">Social Activity</a>
+            <a href="future.html">Future Plan</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact section -->
+    <section class="contact">
+        <h2 class="heading">Contact<span> Me</span></h2>
+        <form action="https://formspree.io/f/xkgjbvnk" method="POST" class="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Name" required>
+                <input type="email" name="Email" placeholder="Email Adress" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <div class="footer">
+        <div class="social">
+            <a
+                href="https://www.linkedin.com/in/yasmin-ayuni-5955a433b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/ysmnayn"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/ysmn_ayn?igsh=MXBlZXlxZXRtM3Axdw%3D%3D&utm_source=qr"><i
+                    class='bx bxl-instagram'></i></a>
+        </div>
+        <p class="copyright">
+            &copy;Yasmin Ayuni - All Rights Reserved
+        </p>
+    </div>
+</body>
+</html>
