@@ -410,7 +410,6 @@ span {
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    max-width: 1200px;
     overflow-x: auto;
     padding: 0 1rem;
 }
