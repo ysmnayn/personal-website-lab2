@@ -113,7 +113,7 @@ section {
 .home-img img:hover {
     box-shadow: 0 0 25px var(--main-color),
         0 0 35px var(--main-color),
-        0 0 45px var(--main-color),
+        0 0 45px var(--main-color);
 }
 
 @keyframes floatImage {
@@ -242,7 +242,7 @@ span {
 .about-img img:hover {
     box-shadow: 0 0 25px var(--main-color),
         0 0 35px var(--main-color),
-        0 0 45px var(--main-color),
+        0 0 45px var(--main-color);
 }
 
 .heading {
